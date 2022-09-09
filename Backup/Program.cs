@@ -1,18 +1,11 @@
 ﻿namespace Backup;
 using Backup.StorageDevice;
 
-
-
-
-
-
- 
-
 class Program
 {
     static void Main()
     {
-        public int MyProperty { get; set; }
+       
     Flash flash = new("SanDisk Ultra Dual Drive", "032G-G46", 32);
         DVD dvd = new("LG", "BP60NB10", _DVDVersion.FullSide);
         HDD hdd = new("Seagate BarraCuda", "ST2000DM008", 2048);
